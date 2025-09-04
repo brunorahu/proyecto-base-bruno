@@ -5,6 +5,7 @@ def main():
     op.leerNumeros()
     op.potencia()
     op.raiz_cuadrada()
+    op.raiz_cuadrada()
     op.mostrarResultado()
     
 if __name__ == "__main__":
