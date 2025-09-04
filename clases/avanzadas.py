@@ -21,7 +21,7 @@ class Operaciones:
                 continue    
     
     def potencia(self):
-        self.resultado = "La potencia de " + str(self.num1) + " ^ " + str(self.num2) + " es igula a " + str(self.num1 + self.num2)
+        self.resultado = "La potencia de " + str(self.num1) + " ^ " + str(self.num2) + " es igula a " + str(self.num1 ** self.num2)
         
     def raiz_cuadrada(self):
         pass
