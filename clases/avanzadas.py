@@ -2,7 +2,10 @@ class Operaciones:
     def __init__(self):
         self.num1 = 0
         self.num2 = 0
-        self.resultado = 0
+        self.resultado1 = 0
+        self.resultado2 = 0
+
+
         
     def leerNumeros(self):
         while True:
@@ -21,10 +24,11 @@ class Operaciones:
                 continue    
     
     def potencia(self):
-        self.resultado = "La potencia de " + str(self.num1) + " ^ " + str(self.num2) + " es igula a " + str(self.num1 ** self.num2)
+        self.resultado1 = "La potencia de " + str(self.num1) + " ^ " + str(self.num2) + " es igula a " + str(self.num1 ** self.num2)
         
     def raiz_cuadrada(self):
-        pass
+        self.resultado2 = "La raíz del número 1 es " + str(self.num1 ** .5) + " La raíz del número 2 es " + str(self.num2 ** .5)
 
     def mostrarResultado(self):
-        print(self.resultado)
+        print(self.resultado1)
+        print(self.resultado2)
